@@ -1,4 +1,3 @@
-
 import React from "react";
 import CommonHeading from "./CommonHeading";
 import bgImage from "../assets/KeyDifferentiatorsBackGroundImage.png";
@@ -13,98 +12,37 @@ const KeyDifferentiators = () => {
     ];
 
     return (
-        <div style={{ marginTop: "4vw", position: "relative",  width: "100%" }}>
+        <div className="relative mt-[4vw] w-full">
             <CommonHeading title="Key Differentiators" />
-            <div className="mt-[5%] ml-[2%]">
-            <div style={{
-                position: "relative",
-                backgroundColor: "#006699",
-                color: "white",
-                padding: "3rem",
-                // borderRadius: "10px",
-                overflow: "hidden",
-                margin: "2vw auto",
-                marginLeft:"5%",
-                width: "95%",
-                maxWidth: "1400px",
-                fontFamily: "'Poppins', sans-serif",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                textAlign: "center"
-            }}>
-                <div style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: "100%",
-                    zIndex: 1
-                }}>
+            <div className="mt-[5%] ml-[2%] flex justify-center">
+                <div className="relative bg-[#006699] text-white p-12 w-[95%] max-w-[1400px] font-[Poppins,sans-serif] flex flex-col items-center text-center overflow-hidden">
+                    {/* Background Image */}
                     <img
                         src={bgImage}
                         alt="Background pattern"
-                        style={{
-                            width: "100%",
-                            height: "100%",
-                            objectFit: "cover",
-                            filter: "blur(2px)"
-                        }}
+                        className="absolute top-0 left-0 w-full h-full object-cover blur-sm"
                     />
-                    <div style={{
-                        position: "absolute",
-                        top: 0,
-                        left: 0,
-                        width: "100%",
-                        height: "100%",
-                        background: "rgba(58, 153, 201, 0.5)",
-                        backdropFilter: "blur(4px)",
-                    }} />
+                    <div className="absolute top-0 left-0 w-full h-full bg-[#3a99c9]/50 backdrop-blur-sm" />
+                    
+                    {/* Differentiators List */}
+                    <div className="relative z-10 w-full max-w-[95%] text-left">
+                        <ul className="list-disc pl-8 text-lg sm:text-xl leading-relaxed">
+                            {differentiators.map((item, index) => (
+                                <li key={index} className="mb-6 pr-4">
+                                    <span className="font-semibold text-2xl sm:text-3xl">{item.title}</span>{" "}
+                                    <span className="text-xl sm:text-2xl font-normal">{item.description}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    
+                    {/* Logo */}
+                    <img 
+                        src={logo2} 
+                        alt="Logo" 
+                        className="absolute bottom-[1.5vw] right-[1.5vw] h-[5vw] z-20"
+                    />
                 </div>
-
-                <div style={{ 
-                    position: "relative", 
-                    zIndex: 2,
-                    width: "100%",
-                    maxWidth: "95%",
-                    textAlign: "left"
-                }}>
-                    <ul style={{
-                        listStyleType: "disc",
-                        paddingLeft: "2rem",
-                        fontSize: "clamp(1rem, 2vw, 1.2rem)",
-                        lineHeight: "1.8",
-                        fontWeight: "400"
-                    }}>
-                        {differentiators.map((item, index) => (
-                            <li key={index} style={{
-                                marginBottom: "2.5rem",
-                                paddingRight: "1rem"
-                            }}>
-                                <span style={{
-                                    fontWeight: "600",
-                                    fontSize: "clamp(2rem, 2vw, 1.5rem)"
-                                }}>{item.title}</span> {" "}
-                                <span style={{
-                                    fontSize: "clamp(2rem, 1.8vw, 1.2rem)",
-                                    fontWeight: "400"
-                                }}>{item.description}</span>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-                <img 
-                    src={logo2} 
-                    alt="Logo" 
-                    style={{
-                        position: "absolute",
-                        bottom: "1.5vw",
-                        right: "1.5vw",
-                        height: "5vw",
-                        zIndex: 4
-                    }}
-                />
-            </div>
             </div>
         </div>
     );

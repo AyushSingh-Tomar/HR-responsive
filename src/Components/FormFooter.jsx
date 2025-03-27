@@ -5,35 +5,34 @@ import phone2 from "../assets/phone2.png";
 
 const ContactInfo = () => {
   return (
-    <div style={{ width: '89%', marginLeft: '8%' }} className="bg-white mb-[2%]" >
+    <div className="w-[89%] ml-[8%] bg-white mb-[2%]">
       <div 
-        className="flex flex-wrap w-full items-center justify-between relative"
+        className="flex flex-wrap items-center justify-between relative px-4 py-3"
         style={{ fontFamily: "Poppins, sans-serif" }}
       >
+        <div className="absolute left-[-5%] top-1/2 transform -translate-y-1/2 h-8 w-1 bg-pink-500 hidden md:block"></div>
 
-        <div className="absolute left-[-5%] top-1/2 transform -translate-y-1/2 h-8 w-1 bg-pink-500 firstwall"></div>
-
-        <div className="flex items-center space-x-2 mb-2 md:mb-0">
+        {/* Contact Item Wrapper */}
+        <div className="flex items-center space-x-2 mb-2 md:mb-0 w-full md:w-auto justify-center md:justify-start">
           <img src={phone2} alt="Phone" className="w-6 h-6 md:w-[2vw] md:h-[2vw]" />
-          <span className="font-medium text-sm md:text-base">+91 9856324575</span>
+          <span className="font-medium text-sm md:text-base text-center md:text-left">+91 9856324575</span>
         </div>
 
-        <div className="flex items-center space-x-2 mb-2 md:mb-0">
-          <div className="h-8 w-1 bg-pink-500 mr-3"></div>
+        <div className="flex items-center space-x-2 mb-2 md:mb-0 w-full md:w-auto justify-center md:justify-start">
+          <div className="h-8 w-1 bg-pink-500 hidden md:block"></div>
           <img src={email} alt="Email" className="w-6 h-6 md:w-[2vw] md:h-[2vw]" />
-          <span className="font-medium text-sm md:text-base">info@hrcompany.com</span>
+          <span className="font-medium text-sm md:text-base text-center md:text-left">info@hrcompany.com</span>
         </div>
 
-        <div className="flex items-center space-x-2 mb-2 md:mb-0">
-          <div className="h-8 w-1 bg-pink-500 mr-3"></div>
+        <div className="flex items-center space-x-2 w-full md:w-auto justify-center md:justify-start">
+          <div className="h-8 w-1 bg-pink-500 hidden md:block"></div>
           <img src={address} alt="Location" className="w-6 h-6 md:w-[2vw] md:h-[2vw]" />
-          <span className="font-medium text-sm md:text-base">
+          <span className="font-medium text-sm md:text-base text-center md:text-left">
             Abu Dhabi House 19 Washington Square N, New York, NY 10011, USA
           </span>
         </div>
 
-
-        <div className="absolute right-[-5%] top-1/2 transform -translate-y-1/2 h-8 w-1 bg-pink-500 lastwall"></div>
+        <div className="absolute right-[-5%] top-1/2 transform -translate-y-1/2 h-8 w-1 bg-pink-500 hidden md:block"></div>
       </div>
     </div>
   );

@@ -3,13 +3,10 @@ import CommonHeading from './CommonHeading'
 import FormFooter from './FormFooter'
 
 function ContactUs() {
-
   return (
-    <div className='mt-[2vw] relative '>
-    <CommonHeading title="Contact Us" />
-   <ContactForm/>
-
-  
+    <div className='mt-[2vw] relative px-4 sm:px-8 max-w-screen-lg mx-auto'>
+      <CommonHeading title="Contact Us" />
+      <ContactForm />
     </div>
   )
 }
