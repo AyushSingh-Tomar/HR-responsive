@@ -4,7 +4,7 @@ import FormFooter from './FormFooter'
 
 function ContactUs() {
   return (
-    <div className='mt-[2vw] relative px-4 sm:px-8 max-w-screen-lg mx-auto'>
+    <div className='mt-[2vw] relative px-4 sm:px-8 max-w-screen-lg '>
       <CommonHeading title="Contact Us" />
       <ContactForm />
     </div>

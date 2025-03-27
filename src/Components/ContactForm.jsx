@@ -10,7 +10,6 @@ const ContactForm = () => {
   });
 
   const [errors, setErrors] = useState({});
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Handle input change
   const handleChange = (e) => {
@@ -38,82 +37,85 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      setIsSubmitting(true);
       const mailtoLink = `mailto:info@hrcompany.com?subject=Enquiry from ${encodeURIComponent(
         formData.name
-      )}&body=Company: ${encodeURIComponent(formData.company)}%0D%0A
-      Nature of Enquiry: ${encodeURIComponent(formData.enquiry)}%0D%0A
-      Email: ${encodeURIComponent(formData.email)}%0D%0A
-      Message: ${encodeURIComponent(formData.message)}`;
+      )}&body=Company: ${encodeURIComponent(formData.company)}
+      %0D%0ANature of Enquiry: ${encodeURIComponent(formData.enquiry)}
+      %0D%0AEmail: ${encodeURIComponent(formData.email)}
+      %0D%0AMessage: ${encodeURIComponent(formData.message)}`;
+      
       window.location.href = mailtoLink;
-      setTimeout(() => setIsSubmitting(false), 2000);
     }
   };
 
   return (
-    <div 
-      className="max-w-4xl mx-auto p-8 bg-blue-500 rounded-lg shadow-lg my-12"
-      style={{ backgroundColor: "#3b99c8", fontFamily: "Poppins, sans-serif" }}
+   <>
+   <div 
+      className="w-4.5/5 mx-auto p-8 bg-blue-500 rounded-lg shadow-lg my-12 mt-[5%] ml-[7%] mb-[5%]"
+      style={{ backgroundColor: "#3b99c8", fontFamily: "Poppins, sans-serif",width:"110%" }}
     >
-      <form onSubmit={handleSubmit} className="grid gap-6 md:grid-cols-2">
-        <div>
-          <input 
-            type="text" name="name" placeholder="Name" 
-            className={`h-16 p-4 rounded w-full bg-white ${errors.name ? 'border-red-500 border' : ''}`} 
-            onChange={handleChange} value={formData.name} 
-          />
-          {errors.name && <p className="text-red-600">{errors.name}</p>}
-        </div>
-        
-        <div>
-          <input 
-            type="text" name="company" placeholder="Company" 
-            className={`h-16 p-4 rounded w-full bg-white ${errors.company ? 'border-red-500 border' : ''}`} 
-            onChange={handleChange} value={formData.company} 
-          />
-          {errors.company && <p className="text-red-600">{errors.company}</p>}
+      <form onSubmit={handleSubmit}>
+        <div className="grid grid-cols-2 gap-6 mb-8">
+          <div>
+            <input 
+              type="text" name="name" placeholder="Name" 
+              className="h-16 p-4 rounded w-full bg-white" 
+              onChange={handleChange} value={formData.name} 
+            />
+            {errors.name && <p className="text-red-600">{errors.name}</p>}
+          </div>
+          
+          <div>
+            <input 
+              type="text" name="company" placeholder="Company" 
+              className="h-16 p-4 rounded w-full bg-white" 
+              onChange={handleChange} value={formData.company} 
+            />
+            {errors.company && <p className="text-red-600">{errors.company}</p>}
+          </div>
+
+          <div>
+            <input 
+              type="text" name="enquiry" placeholder="Nature of Enquiry" 
+              className="h-16 p-4 rounded w-full bg-white" 
+              onChange={handleChange} value={formData.enquiry} 
+            />
+            {errors.enquiry && <p className="text-red-600">{errors.enquiry}</p>}
+          </div>
+
+          <div>
+            <input 
+              type="email" name="email" placeholder="Email" 
+              className="h-16 p-4 rounded w-full bg-white" 
+              onChange={handleChange} value={formData.email} 
+            />
+            {errors.email && <p className="text-red-600">{errors.email}</p>}
+          </div>
         </div>
 
         <div>
-          <input 
-            type="text" name="enquiry" placeholder="Nature of Enquiry" 
-            className={`h-16 p-4 rounded w-full bg-white ${errors.enquiry ? 'border-red-500 border' : ''}`} 
-            onChange={handleChange} value={formData.enquiry} 
-          />
-          {errors.enquiry && <p className="text-red-600">{errors.enquiry}</p>}
-        </div>
-
-        <div>
-          <input 
-            type="email" name="email" placeholder="Email" 
-            className={`h-16 p-4 rounded w-full bg-white ${errors.email ? 'border-red-500 border' : ''}`} 
-            onChange={handleChange} value={formData.email} 
-          />
-          {errors.email && <p className="text-red-600">{errors.email}</p>}
-        </div>
-
-        <div className="md:col-span-2">
           <textarea
             name="message" placeholder="Enter Your Query Here..."
-            className={`w-full p-4 rounded h-40 bg-white ${errors.message ? 'border-red-500 border' : ''}`}
+            className="w-full p-4 rounded h-40 mb-6 bg-white"
             onChange={handleChange} value={formData.message}
           ></textarea>
           {errors.message && <p className="text-red-600">{errors.message}</p>}
         </div>
 
-        <div className="md:col-span-2">
-          <button 
-            type="submit"
-            className="w-full bg-blue-700 text-white py-4 rounded disabled:opacity-50"
-            style={{ backgroundColor: "#016698" }}
-            disabled={isSubmitting}
-          >
-            {isSubmitting ? "Sending..." : "Send Message"}
-          </button>
-        </div>
+        <button 
+          type="submit"
+          className="w-full bg-blue-700 text-white py-4 rounded"
+          style={{ backgroundColor: "#016698" }}
+        >
+          Send Message
+        </button>
       </form>
     </div>
+   </>
   );
 };
 
 export default ContactForm;
+
+
+//info@hrcompany.com

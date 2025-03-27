@@ -11,32 +11,34 @@ const BlueArrow = ({
 }) => {
   return (
     <div 
-      className="relative flex flex-col items-center justify-center gap-6 w-full max-w-[700px] px-4 sm:px-6 md:px-8" 
-      style={{ fontFamily: 'Calibri' }}
+      className="relative flex flex-col items-center justify-center gap-6" 
+      style={{ width, fontFamily: 'Calibri' }}
     >
-      <div className="relative w-full" style={{ height }}>
+      <div className="relative" style={{ width, height }}>
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
-          width="100%" 
-          height="100%" 
+          width={width} 
+          height={height} 
           viewBox={`0 0 ${width} ${height}`}
         >
           <polygon 
-            points={flatTail 
-              ? `${width * 0.1},0 ${width * 0.9},0 ${width},${height / 2} ${width * 0.9},${height} ${width * 0.1},${height} ${width * 0.1},${height / 2}`
-              : `${width * 0.1},0 ${width * 0.9},0 ${width},${height / 2} ${width * 0.9},${height} ${width * 0.1},${height} ${width * 0.2},${height / 2}`
-            } 
-            fill={color} 
-            stroke="black"  
-            strokeWidth="2"
-          />
+  points={flatTail 
+    ? `${width * 0.1},0 ${width * 0.9},0 ${width},${height / 2} ${width * 0.9},${height} ${width * 0.1},${height} ${width * 0.1},${height / 2}`
+    : `${width * 0.1},0 ${width * 0.9},0 ${width},${height / 2} ${width * 0.9},${height} ${width * 0.1},${height} ${width * 0.2},${height / 2}`
+  } 
+  fill={color} 
+  stroke="black"  
+  strokeWidth="2"
+/>
+
         </svg>
 
         <div 
-          className="absolute top-1/2 left-1/2 flex items-center justify-center w-full h-full text-black font-bold text-base sm:text-lg"
+          className="absolute top-1/2 left-1/2 flex items-center justify-center w-full h-full text-black font-bold text-lg"
           style={{ 
             transform: 'translate(-50%, -50%)', 
             pointerEvents: 'none',
+            fontFamily: 'Calibri'
           }}
         >
           {text}
@@ -44,18 +46,19 @@ const BlueArrow = ({
       </div>
 
       <div 
-        className="p-4 text-black font-bold text-sm sm:text-base w-full max-w-[560px]"
+        className="p-4 text-black font-bold text-lg"
         style={{ 
+          width: width * 0.8, 
           backgroundColor: color, 
           borderRadius: '0 0 10px 10px', 
           textAlign: 'left',
-          height: 'auto', 
-          minHeight: deskheight, 
+          height: deskheight, 
+          fontFamily: 'Calibri'
         }}
       >
-        <ul className="list-disc pl-4 sm:pl-6">
+        <ul className="list-disc pl-6" style={{ fontFamily: 'Calibri' }}>
           {boxPoints.map((point, index) => (
-            <li key={index} className="text-xs sm:text-sm md:text-base font-normal">
+            <li key={index} className="text-base font-normal " style={{ fontFamily: 'Calibri' }}>
               {point}
             </li>
           ))}
