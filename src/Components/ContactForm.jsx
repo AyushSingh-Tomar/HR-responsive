@@ -52,7 +52,7 @@ const ContactForm = () => {
    <>
    <div 
       className="w-4.5/5 mx-auto p-8 bg-blue-500 rounded-lg shadow-lg my-12 mt-[5%] ml-[7%] mb-[5%]"
-      style={{ backgroundColor: "#3b99c8", fontFamily: "Poppins, sans-serif",width:"110%" }}
+      style={{ backgroundColor: "#3b99c8", fontFamily: "Poppins, sans-serif",width:"100%" }}
     >
       <form onSubmit={handleSubmit}>
         <div className="grid grid-cols-2 gap-6 mb-8">
