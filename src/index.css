@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+*{
+ box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'TimesNewRoman';
+  src: url('/assets/fonts/times.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply globally */
+body {
+  font-family: 'TimesNewRoman', serif;
+}
