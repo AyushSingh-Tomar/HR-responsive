@@ -14,13 +14,16 @@ const Strength = () => {
           "Delivering excellence through people advisory and customized processes.",
           "Harnessing potential, building the leadership pipeline, and coaching leaders for success."
         ].map((text, index) => (
-          <div
-            key={index}
-            className="bg-[#3A99C9] w-full md:w-[500px] max-w-[90%] p-4 md:p-6 flex items-start text-justify shadow-lg rounded-lg sm:text-sm sm:h-auto sm:w-full"
-          >
-            <img src={star} alt="Star" className="w-4 h-4 mr-2 mt-1 sm:w-3 sm:h-3" />
-            <p className="text-white font-bold text-lg sm:text-base">{text}</p>
-          </div>
+<div
+  key={index}
+  className="bg-[#3A99C9] w-full md:w-[500px] max-w-[90%] p-4 md:p-6 flex items-start text-left shadow-lg rounded-lg sm:w-full"
+>
+  <img src={star} alt="Star" className="w-4 h-4 mr-2 mt-1 sm:w-3 sm:h-3" />
+  <p className="text-white font-bold text-xl md:text-2xl sm:text-sm md:leading-snug sm:leading-tight sm:tracking-tight md:tracking-normal sm:max-w-full">
+    {text}
+  </p>
+</div>
+
         ))}
         
       </div>

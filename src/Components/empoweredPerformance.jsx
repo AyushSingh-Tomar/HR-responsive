@@ -6,7 +6,7 @@ import logo2 from "../assets/logo2.png";
 const EmpoweredPerformance = () => {
   return (
     <div
-      className="mt-[2vw] relative flex-col items-center"
+      className="mt-[2vw] mb-[3vw] relative flex-col items-center"
       style={{ fontFamily: "Poppins, sans-serif" }}
     >
       <CommonHeading title="Empowered Performance" />
@@ -20,11 +20,11 @@ const EmpoweredPerformance = () => {
       </div>
 
       <div className="w-full flex justify-end pr-[1.5vw] mt-4 relative">
-        <img
-          src={logo2}
-          className="hidden sm:block absolute bottom-0 right-0 h-[5vw] sm:h-[6vw] md:h-[4vw] lg:h-[3.5vw] xl:h-[3vw] 2xl:h-[2.5vw]"
-          alt="Logo"
-        />
+       <img
+               src={logo2}
+               className="hidden sm:block absolute right-[2vw] bottom-[-4vw] h-[5vw] min-h-[40px]"
+               alt="Logo"
+             />
       </div>
     </div>
   );

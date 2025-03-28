@@ -98,7 +98,7 @@ const LeaderShipCoachingAndDevelopment = () => {
         </div>
       </div>
 
-      <img src={logo2} className='hidden sm:block absolute bottom-4 right-4 w-12 md:w-[5vw] h-auto' alt='Company Logo' />
+      <img src={logo2} className='hidden sm:block absolute bottom-4 right-4 w-12 md:w-[3.5vw] h-auto' alt='Company Logo' />
     </div>
   );
 };
