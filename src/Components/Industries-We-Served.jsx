@@ -17,8 +17,8 @@ const IndustriesWeServed = () => {
         {industries.map((industry, index) => (
           <div 
             key={index} 
-            className='text-white text-center px-4 sm:px-6 py-6 sm:py-8 h-32 sm:h-40 shadow-md hover:scale-105 transition-transform duration-200 cursor-pointer flex items-center justify-center text-base sm:text-lg md:text-xl font-semibold'
-            style={{ backgroundColor: "#5b9bd5", fontFamily: 'Poppins, sans-serif' }}
+            className='text-white text-center px-4 sm:px-6 py-6 sm:py-8 h-32 sm:h-40 shadow-md hover:scale-105 transition-transform duration-200 cursor-pointer flex items-center justify-center text-base sm:text-lg md:text-xl sm:text-sm font-semibold'
+            style={{ backgroundColor: "#5b9bd5", fontFamily: 'Poppins, sans-serif' ,padding:'2px' }}
           >
             {industry}
           </div>
