@@ -17,14 +17,14 @@ const IndustriesWeServed = () => {
         {industries.map((industry, index) => (
           <div 
             key={index} 
-            className='text-white text-center px-4 sm:px-6 py-6 sm:py-8 h-32 sm:h-40 shadow-md hover:scale-105 transition-transform duration-200 cursor-pointer flex items-center justify-center text-base sm:text-lg md:text-xl sm:text-sm font-semibold'
-            style={{ backgroundColor: "#5b9bd5", fontFamily: 'Poppins, sans-serif' ,padding:'2px' }}
+            className='text-white text-center px-2 sm:px-6 py-4 sm:py-8 h-28 sm:h-40 shadow-md hover:scale-105 transition-transform duration-200 cursor-pointer flex items-center justify-center text-xs sm:text-sm md:text-xl font-semibold'
+            style={{ backgroundColor: "#5b9bd5", fontFamily: 'Poppins, sans-serif', padding: '2px' }}
           >
             {industry}
           </div>
         ))}
 
-        <div className='bg-white text-black font-semibold text-center px-4 sm:px-6 py-6 sm:py-8 h-32 sm:h-40 shadow-md flex items-center justify-center text-base sm:text-lg md:text-xl' style={{ fontFamily: 'Poppins, sans-serif' }}>
+        <div className='bg-white text-black font-semibold text-center px-2 sm:px-6 py-4 sm:py-8 h-28 sm:h-40 shadow-md flex items-center justify-center text-xs sm:text-sm md:text-xl' style={{ fontFamily: 'Poppins, sans-serif' }}>
           And Many More...
         </div>
       </div>   
@@ -33,6 +33,7 @@ const IndustriesWeServed = () => {
 };
 
 export default IndustriesWeServed;
+
 
 
 
