@@ -49,7 +49,7 @@ const LeaderShipCoachingAndDevelopment = () => {
 
   return (
     <div className='relative mt-8 px-4 md:px-8 pb-16' style={{ fontFamily: 'Calibri, sans-serif' }}>
-      <h2 className='bg-[#006699] ml-4 md:ml-[5vw] text-lg md:text-[2vw] pl-4 md:pl-[4vw] text-white relative z-10 flex items-center h-12 md:h-[3vw]'>
+      <h2 className='bg-[#006699] ml-[5vw] text-lg sm:text-xl md:text-2xl px-4 sm:px-[4vw] py-2 sm:py-[0.8vw] text-white relative z-10 flex items-center'>
         Leadership Coaching & Development
       </h2>
       
