@@ -66,7 +66,7 @@ const Services = () => {
 
       <img
         src={logo2}
-        className="absolute right-[2vw] bottom-[2vw] h-[5vw] min-h-[40px]"
+        className="hidden sm:block absolute right-[2vw] bottom-[2vw] h-[5vw] min-h-[40px]"
         alt="Logo"
       />
     </div>

@@ -4,10 +4,13 @@ import FormFooter from './FormFooter'
 
 function ContactUs() {
   return (
-    <div className='mt-[2vw] relative px-4 sm:px-8 max-w-screen-lg '>
-      <CommonHeading title="Contact Us" />
-      <ContactForm />
+    <div className="mt-[2vw] relative  flex-col items-center font-[Poppins,sans-serif] m-auto">
+    <CommonHeading title="Contact us" />
+    <div className=" justify-center mt-8 sm:mt-10 m-auto w-full max-w-[90%] sm:max-w-[80%] md:max-w-3xl xl:max-w-5xl ">
+     <ContactForm/>
     </div>
+   
+  </div>
   )
 }
 

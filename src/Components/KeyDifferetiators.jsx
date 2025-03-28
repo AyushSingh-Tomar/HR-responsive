@@ -40,7 +40,7 @@ const KeyDifferentiators = () => {
                     <img 
                         src={logo2} 
                         alt="Logo" 
-                        className="absolute bottom-[1.5vw] right-[1.5vw] h-[5vw] z-20"
+                        className="hidden sm:block absolute bottom-[1.5vw] right-[1.5vw] h-[5vw] z-20"
                     />
                 </div>
             </div>

@@ -2,14 +2,12 @@ import React from 'react';
 import BlueArrow from './arrow';
 import CommonHeading from './CommonHeading';
 import logo2 from '../assets/logo2.png';
- 
 const HowWePlay = () => {
   return (
     <div className="mt-[2vw] relative px-4 sm:px-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
       <CommonHeading title="How we Play?" />
  <br />
  <br />
-
       <div className="flex flex-wrap justify-center gap-0 p-2 mt-5 relative" style={{ fontFamily: 'Poppins, sans-serif',  }}>
         {[
           { text: "Assess", color: "#0066cc", boxPoints: ["Situation Analysis", "Define Arena of engagement", "First level problem definition"], flatTail: true, width: 260 },
@@ -20,7 +18,7 @@ const HowWePlay = () => {
         ].map((step, index) => (
           <div 
             key={index} 
-            className={`min-h-[250px] flex flex-col justify-between w-full sm:w-auto ${index !== 0 ? '-ml-[30px]' : ''}`} 
+            className={`min-h-[250px] flex flex-col sm:block pt-5 justify-between w-full sm:w-auto ${index !== 0 ? 'sm:-ml-[30px] ml-2' : 'ml-4'}`}  
             style={{ fontFamily: 'Poppins, sans-serif' }}
           >
             <BlueArrow 
@@ -39,7 +37,7 @@ const HowWePlay = () => {
     <br />
     <br />
       <div className="absolute bottom-[-1.5vw] right-[1.5vw]">
-        <img src={logo2} className="h-[5vw]" alt="Company Logo" />
+        <img src={logo2} className="hidden sm:block h-[5vw]" alt="Company Logo" />
       </div>
     </div>
   );

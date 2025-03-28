@@ -33,7 +33,7 @@ while solving problems and developing decision making capabilities alongside.
         </p>
       </div>
       <div className="w-full flex justify-end pr-4 mt-4">
-        <img src={logo2} className="absolute right-4 bottom-6 h-[5vw] min-h-[40px]" alt="Logo" />
+        <img src={logo2} className="hidden sm:block absolute right-4 bottom-6 h-[5vw] min-h-[40px]" alt="Logo" />
       </div>
     </div>
   );
