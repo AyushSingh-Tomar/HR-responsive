@@ -6,7 +6,7 @@ import star from "../assets/star.png";
 const Strength = () => {
   return (
     <div className="mt-[2vw] relative font-[Poppins,sans-serif]">
-      <CommonHeading title="Our Strength" />
+      <CommonHeading title="Our Strengths" />
       <div className="flex flex-col md:flex-row md:flex-wrap justify-center gap-6 mt-[20px] md:mt-[3vw] px-6 md:px-12 sm:ml-4 ml-12">
         
         {[ 
