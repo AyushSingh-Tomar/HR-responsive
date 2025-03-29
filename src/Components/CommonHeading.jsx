@@ -11,7 +11,7 @@ const CommonHeading = (props) => {
         {props.title}
       </h2>
 
-      <div className='hidden sm:block w-full max-w-[50vw] absolute top-[4vw] left-0 h-[1px] sm:h-[0.30vw] bg-[#969696] mt-6'></div>
+      <div className='hidden sm:block w-full max-w-[50vw] absolute top-[4vw] left-4 h-[1px] sm:h-[0.30vw] bg-[#969696] mt-6'></div>
       <div className='hidden sm:block w-[1px] sm:w-[0.30vw] absolute top-0 left-[3vw] h-full bg-[#969696]'></div>
     </>
   )
