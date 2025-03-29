@@ -5,7 +5,8 @@ const CommonHeading = (props) => {
     <>
       <h2 
         className='bg-[#006699] ml-[5vw] text-lg sm:text-xl md:text-2xl lg:text-[1.9rem] xl:text-[2.2rem] px-4 sm:px-[4vw] py-2 sm:py-[0.8vw] text-white relative z-10 flex items-center'
-        style={{ fontFamily: "Calibri", fontSize: "clamp(2rem, 2.3vw, 3rem)" }}
+        style={{ fontFamily: "Times New Roman",
+          fontSize: "clamp(2rem, 2.3vw, 3rem)" }}
       >
         {props.title}
       </h2>
