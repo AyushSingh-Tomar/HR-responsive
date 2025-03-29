@@ -16,7 +16,7 @@ import ContactUs from "../Components/Contact-Us";
 import HowWePlay from "../Components/HowWePlay";
 import leftRibbon from "../assets/left-ribbin.png"; 
 import FormFooter from "../Components/FormFooter"
-
+import Footeradverdant from "../Components/footeradverdant"
 const Home = ({ homeRef, aboutRef, contactRef, serviceRef, solutionRef }) => {
   return (
     <div>

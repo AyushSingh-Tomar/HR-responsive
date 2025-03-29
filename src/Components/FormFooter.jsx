@@ -2,10 +2,10 @@ import React from "react";
 import address from "../assets/address.png";
 import email from "../assets/mail.png";
 import phone2 from "../assets/phone2.png";
-
+import FormAdverdant from "./footeradverdant"
 const ContactInfo = () => {
   return (
-    <div className="w-[89%] ml-[8%] bg-white mb-[2%] mt-[3vw]">
+    <div className="w-[89%] ml-[8%] bg-white mb-[0%] mt-[3vw]">
       <div 
         className="flex flex-wrap items-center justify-between relative px-4 py-3"
         style={{ fontFamily: "Poppins, sans-serif" }}
@@ -34,6 +34,7 @@ const ContactInfo = () => {
 
         <div className="absolute right-[-5%] top-1/2 transform -translate-y-1/2 h-8 w-1 bg-pink-500 hidden md:block"></div>
       </div>
+      <FormAdverdant/>
     </div>
   );
 };

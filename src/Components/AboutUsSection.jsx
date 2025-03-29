@@ -10,7 +10,7 @@ const AboutUs = () => {
 
   return (
     <div className="mt-[2vw] relative px-4 sm:px-8 md:px-12" style={textStyle}>
-      <CommonHeading title="About Us" />
+      <div className='ml-[-3vw]'><CommonHeading title="About Us" /></div>
       <div className="relative mt-4 pt-6 flex flex-col md:flex-row items-center md:items-start">
         {/* Image Section */}
         <div className="relative w-full md:w-1/3 flex items-center justify-center md:justify-start">
@@ -22,9 +22,10 @@ const AboutUs = () => {
         </div>
 
         {/* Text Section */}
-        <div className="w-full md:w-2/3 text-gray-700 md:ml-8 mt-6 md:mt-0 leading-relaxed space-y-4 text-sm sm:text-base md:text-lg">
+        <div className=" w-full md:w-3/5 text-gray-700 md:ml-8 mt-6 md:mt-0 leading-relaxed space-y-4 text-sm sm:text-base md:text-lg">
           <p style={textStyle}>
-          Udai is a Graduate in Management from BHU - Varanasi and Post Graduate in Management and Organization Behavior from XLRI 
+          Udai is a Graduate in Management from BHU - Varanasi and Post 
+          Graduate in Management and Organization Behavior from XLRI 
            Jamshedpur. He is also an alumnus of Ashridge University (UK), IMD (Lausanne), Center for Creative Leadership (North Carolina), Indian School of Business - 
            Hyderabad, and Stanford Business School (California), through his academic and learning exposures. He also qualifies a One-year Business Leaders Program 
            (on Strategy and Leadership) with Indian Instituteof Management, Kolkata (India) and has taught atIIT, Mumbai & Roorkee as a visiting faculty.

@@ -49,8 +49,8 @@ const LeaderShipCoachingAndDevelopment = () => {
 
   return (
     <div className='relative mt-8 px-4 md:px-8 pb-16' style={{ fontFamily: 'Calibri, sans-serif' }}>
-      <CommonHeading title={"Leadership Coaching & Development"}/>
-      <div className='flex flex-col md:flex-row items-center md:items-start w-full h-auto gap-6 mt-6 md:mt-[5%] ml-4'>
+      <div className='ml-[-2vw]'><CommonHeading title="Leadership Coaching & Development" /></div>
+      <div className='flex flex-col md:flex-row items-center md:items-start w-full h-auto gap-6 mt-6 md:mt-[5%] ml-6'>
         <div className='w-full md:w-1/3 p-4 md:p-6 text-left'>
           <h2 className='font-bold text-lg md:text-xl'>Experienced, Certified & Trained Coaches</h2>
           <p className='mt-2 font-semibold'>Scope and Clients:</p>
@@ -95,7 +95,11 @@ const LeaderShipCoachingAndDevelopment = () => {
         </div>
       </div>
 
-      <img src={logo2} className='hidden sm:block absolute bottom-4 right-4 w-12 md:w-[3.5vw] h-auto' alt='Company Logo' />
+     <img
+             src={logo2}
+             className="hidden sm:block absolute right-[2vw] bottom-[-1vw] h-[4.5vw] min-h-[35px]"
+             alt="Logo"
+           />
     </div>
   );
 };

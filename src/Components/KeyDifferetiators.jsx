@@ -15,7 +15,7 @@ const KeyDifferentiators = () => {
         <div className="relative mt-[4vw] w-full">
             <CommonHeading title="Key Differentiators" />
             <div className="mt-[5%] ml-[2%] flex justify-center">
-                <div className="relative bg-[#006699] text-white p-10 w-[95%] max-w-[1400px] font-[Poppins,sans-serif] flex flex-col items-center text-center overflow-hidden">
+                <div className="relative bg-[#006699] text-white p-10 w-[95%] ml-[4%] max-w-[1400px] font-[Poppins,sans-serif] flex flex-col items-center text-center overflow-hidden">
                     {/* Background Image */}
                     <img
                         src={bgImage}
@@ -37,11 +37,11 @@ const KeyDifferentiators = () => {
                     </div>
                     
                     {/* Logo */}
-                    <img 
-                        src={logo2} 
-                        alt="Logo" 
-                        className="hidden sm:block absolute bottom-[1.5vw] right-[1.5vw] h-[4vw] z-20"
-                    />
+                    <img
+                            src={logo2}
+                            className="hidden sm:block absolute right-[1vw] bottom-[1vw] h-[4.5vw] min-h-[35px]"
+                            alt="Logo"
+                          />
                 </div>
             </div>
         </div>

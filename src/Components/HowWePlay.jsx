@@ -4,8 +4,9 @@ import CommonHeading from './CommonHeading';
 import logo2 from '../assets/logo2.png';
 const HowWePlay = () => {
   return (
-    <div className="mt-[2vw] relative px-4 sm:px-6 sm:mb-[1vw] " style={{ fontFamily: 'Poppins, sans-serif' }}>
-      <CommonHeading title="How we Play?" />
+    <div className="mt-[2vw] relative px-4 sm:px-6 sm:mb-[1vw]  " style={{ fontFamily: 'Poppins, sans-serif' }}>
+      <div className='ml-[-2vw]'><CommonHeading title="How we Play?" /></div>
+      
 <br />
       <div className="flex flex-wrap justify-center gap-0 p-2 relative" style={{ fontFamily: 'Poppins, sans-serif',  }}>
         {[
@@ -35,7 +36,7 @@ const HowWePlay = () => {
 
     <br />
     <br />
-      <div className="absolute bottom-[-1.5vw] right-[1.5vw]">
+      <div className="absolute bottom-[-1.7vw] right-[1.5vw]">
         <img src={logo2} className="hidden sm:block h-[5vw]" alt="Company Logo" />
       </div>
     </div>

@@ -19,7 +19,7 @@ const Strength = () => {
             className="bg-[#3A99C9] w-full md:w-[480px] max-w-[90%] p-4 md:p-5 flex items-start text-left shadow-lg rounded-lg sm:w-full"
           >
             <img src={star} alt="Star" className="w-3.5 h-3.5 mr-2 mt-1 sm:w-3 sm:h-3" />
-            <p className="text-white font-bold text-lg md:text-xl sm:text-sm leading-snug sm:leading-tight sm:tracking-tight md:tracking-normal sm:max-w-full">
+            <p className="text-white  text-lg md:text-xl sm:text-sm leading-snug sm:leading-tight sm:tracking-tight md:tracking-normal sm:max-w-full">
               {text}
             </p>
           </div>
@@ -29,7 +29,7 @@ const Strength = () => {
 
       <img
         src={logo2}
-        className="hidden sm:block absolute right-[2vw] bottom-[2vw] h-[4.5vw] min-h-[35px]"
+        className="hidden sm:block absolute right-[2vw] bottom-[-1vw] h-[4.5vw] min-h-[35px]"
         alt="Logo"
       />
     </div>

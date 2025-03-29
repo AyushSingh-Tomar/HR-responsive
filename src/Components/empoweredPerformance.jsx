@@ -22,7 +22,7 @@ const EmpoweredPerformance = () => {
       <div className="w-full flex justify-end pr-[1.5vw] mt-4 relative">
        <img
                src={logo2}
-               className="hidden sm:block absolute right-[2vw] bottom-[-4vw] h-[5vw] min-h-[40px]"
+               className="hidden sm:block absolute right-[2vw] bottom-[-4vw] h-[4.5vw] min-h-[35px]"
                alt="Logo"
              />
       </div>

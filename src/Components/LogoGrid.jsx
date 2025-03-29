@@ -13,21 +13,20 @@ import otherLogo from "../assets/image 13.png";
 
 const LogoGrid = () => {
   return (
-    <div className=" mt-[2vw] relative mb-[-1%] px-4 md:px-8">
-      <CommonHeading title="Our Academic and Professional Learning Exposures" />
-
-      <div className="m-auto container mx-auto py-10 flex flex-col items-center gap-6 ml-0 md:ml-9 ">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 md:gap-1 items-center justify-center ml-[-4px] md:ml-0">
-          <img src={ashridgeLogo} alt="Ashridge" className="h-20 md:h-24 object-contain" />
-          <img src={mdiLogo} alt="MDI Gurgaon" className="h-20 md:h-24 object-contain" />
-          <img src={xlriLogo} alt="XLRI Jamshedpur" className="h-20 md:h-24 object-contain" />
-          <img src={conferenceBoardLogo} alt="The Conference Board" className="h-20 md:h-24 object-contain" />
-          <img src={iimCalcuttaLogo} alt="IIM Calcutta" className="h-20 md:h-24 object-contain" />
-          <img src={isbLogo} alt="ISB" className="h-20 md:h-24 object-contain" />
-          <img src={imdLogo} alt="IMD" className="h-20 md:h-24 object-contain" />
-          <img src={otherLogo} alt="Other Institute" className="h-20 md:h-24 object-contain" />
-          <img src={stanfordLogo} alt="Stanford" className="h-20 md:h-24 object-contain" />
-          <img src={iitRoorkeeLogo} alt="IIT Roorkee" className="h-20 md:h-24 object-contain" />
+    <div className="mt-[2vw] relative mb-[-1%] px-4 md:px-8">
+      <div className="ml-[-2vw]"><CommonHeading title="Our Academic and Professional Learning Exposures" /></div>
+      <div className="m-auto container mx-auto py-10 flex flex-col items-center gap-6 ml-0 md:ml-9">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 items-center justify-center">
+          <img src={ashridgeLogo} alt="Ashridge" className="h-20 md:h-24 object-contain mx-auto" />
+          <img src={mdiLogo} alt="MDI Gurgaon" className="h-20 md:h-24 object-contain mx-auto" />
+          <img src={xlriLogo} alt="XLRI Jamshedpur" className="h-20 md:h-24 object-contain mx-auto" />
+          <img src={conferenceBoardLogo} alt="The Conference Board" className="h-20 md:h-24 object-contain mx-auto" />
+          <img src={iimCalcuttaLogo} alt="IIM Calcutta" className="h-20 md:h-24 object-contain mx-auto" />
+          <img src={isbLogo} alt="ISB" className="h-20 md:h-24 object-contain mx-auto" />
+          <img src={imdLogo} alt="IMD" className="h-20 md:h-24 object-contain mx-auto" />
+          <img src={otherLogo} alt="Other Institute" className="h-20 md:h-24 object-contain mx-auto" />
+          <img src={stanfordLogo} alt="Stanford" className="h-20 md:h-24 object-contain mx-auto" />
+          <img src={iitRoorkeeLogo} alt="IIT Roorkee" className="h-20 md:h-24 object-contain mx-auto" />
         </div>
       </div>
     </div>

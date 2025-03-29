@@ -8,7 +8,7 @@ const TeamSolutions = () => {
     <div className="mt-[2vw] relative  flex-col items-center font-[Poppins,sans-serif] m-auto">
       <CommonHeading title="Team Solutions" />
       
-      <div className="mt-8 px-6 max-w-4xl text-justify m-auto">
+      <div className="mt-12 px-6 max-w-4xl text-justify m-auto">
         <p className="text-gray-800 text-lg sm:text-xl leading-relaxed m-auto">
           <strong>Team Solutions</strong> is a quick, time-bound, and proven approach for team building and decision-making.
           It enhances collective learning and execution effectiveness, guided by experienced experts and coaches.
@@ -32,9 +32,11 @@ aided by experts and experienced coaches. The process benefits individuals, team
 while solving problems and developing decision making capabilities alongside.
         </p>
       </div>
-      <div className="w-full flex justify-end pr-4 mt-4">
-        <img src={logo2} className="hidden sm:block absolute right-4 bottom-6 h-[5vw] min-h-[40px]" alt="Logo" />
-      </div>
+      <img
+              src={logo2}
+              className="hidden sm:block absolute right-[2vw] bottom-[-1vw] h-[4.5vw] min-h-[35px]"
+              alt="Logo"
+            />
     </div>
   );
 };
