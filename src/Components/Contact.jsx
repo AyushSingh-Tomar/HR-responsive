@@ -4,7 +4,7 @@ import { Phone, Linkedin } from 'lucide-react';
 const Contact = () => {
   return (
     <div 
-      className='bg-linear-to-r ml-[5vw] mt-[2vw] flex justify-center items-center h-[10vw] from-[#3A99C9] to-[#0073AE]'
+      className='bg-linear-to-r ml-[5vw] mt-[2vw] flex justify-center items-center h-[10vw] from-[#3A99C9] to-[#0073AE] '
       style={{ fontFamily: 'Calibri, sans-serif' }}
     >
       <div className='flex justify-between w-[90%] m-auto text-white items-center'>

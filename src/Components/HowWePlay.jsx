@@ -4,11 +4,10 @@ import CommonHeading from './CommonHeading';
 import logo2 from '../assets/logo2.png';
 const HowWePlay = () => {
   return (
-    <div className="mt-[2vw] relative px-4 sm:px-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
+    <div className="mt-[2vw] relative px-4 sm:px-6 sm:mb-[1vw] " style={{ fontFamily: 'Poppins, sans-serif' }}>
       <CommonHeading title="How we Play?" />
- <br />
- <br />
-      <div className="flex flex-wrap justify-center gap-0 p-2 mt-5 relative" style={{ fontFamily: 'Poppins, sans-serif',  }}>
+<br />
+      <div className="flex flex-wrap justify-center gap-0 p-2 relative" style={{ fontFamily: 'Poppins, sans-serif',  }}>
         {[
           { text: "Assess", color: "#0066cc", boxPoints: ["Situation Analysis", "Define Arena of engagement", "First level problem definition"], flatTail: true, width: 260 },
           { text: "Design", color: "#fbfda1", boxPoints: ["Agree on process intervention", "Define resource", "Agree project objectives"], width: 260 },
