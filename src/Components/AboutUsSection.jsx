@@ -24,7 +24,7 @@ const AboutUs = () => {
         {/* Text Section */}
         <div className="w-full md:w-2/3 text-gray-700 md:ml-8 mt-6 md:mt-0 leading-relaxed space-y-4 text-sm sm:text-base md:text-lg">
           <p style={textStyle}>
-            Udal is a Graduate in Management from BHU - Varanasi and Post Graduate in Management
+            Udai is a Graduate in Management from BHU - Varanasi and Post Graduate in Management
             and Organization Behavior from XLRI - Jamshedpur. He is also an alumnus of Ashridge University (UK),
             IMD (Lausanne), Center for Creative Leadership (North Carolina), Indian Business School - Hyderabad,
             and Stanford Business School (California). He also qualified for a one-year Business Leaders Program
