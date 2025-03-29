@@ -16,7 +16,7 @@ const LogoGrid = () => {
     <div className=" mt-[2vw] relative mb-[-1%] px-4 md:px-8">
       <CommonHeading title="Our Academic and Professional Learning Exposures" />
 
-      <div className="m-auto container mx-auto py-10 flex flex-col items-center gap-6 ml-0 md:ml-4 ">
+      <div className="m-auto container mx-auto py-10 flex flex-col items-center gap-6 ml-0 md:ml-9 ">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0 md:gap-1 items-center justify-center ml-[-4px] md:ml-0">
           <img src={ashridgeLogo} alt="Ashridge" className="h-20 md:h-24 object-contain" />
           <img src={mdiLogo} alt="MDI Gurgaon" className="h-20 md:h-24 object-contain" />

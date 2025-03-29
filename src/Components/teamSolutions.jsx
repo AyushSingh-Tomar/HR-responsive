@@ -10,9 +10,9 @@ const TeamSolutions = () => {
       
       <div className="mt-8 px-6 max-w-4xl text-justify m-auto">
         <p className="text-gray-800 text-lg sm:text-xl leading-relaxed m-auto">
-          <strong>Team Solutions</strong> is a **quick, time-bound, and proven approach** for team building and decision-making.
-          It enhances **collective learning and execution effectiveness**, guided by **experienced experts and coaches**.
-          This process benefits individuals, teams, and organizations by **building synergies** while fostering problem-solving
+          <strong>Team Solutions</strong> is a quick, time-bound, and proven approach for team building and decision-making.
+          It enhances collective learning and execution effectiveness, guided by experienced experts and coaches.
+          This process benefits individuals, teams, and organizations by building synergies while fostering problem-solving
           and decision-making skills.
         </p>
       </div>

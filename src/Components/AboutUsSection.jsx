@@ -24,12 +24,11 @@ const AboutUs = () => {
         {/* Text Section */}
         <div className="w-full md:w-2/3 text-gray-700 md:ml-8 mt-6 md:mt-0 leading-relaxed space-y-4 text-sm sm:text-base md:text-lg">
           <p style={textStyle}>
-            Udai is a Graduate in Management from BHU - Varanasi and Post Graduate in Management
-            and Organization Behavior from XLRI - Jamshedpur. He is also an alumnus of Ashridge University (UK),
-            IMD (Lausanne), Center for Creative Leadership (North Carolina), Indian Business School - Hyderabad,
-            and Stanford Business School (California). He also qualified for a one-year Business Leaders Program
-            for Strategy with Leadership at the Indian Institute of Management, Kolkata (India) and has taught
-            at IIM, Mumbai & Morocco as a visiting faculty.
+          Udai is a Graduate in Management from BHU - Varanasi and Post Graduate in Management and Organization Behavior from XLRI 
+           Jamshedpur. He is also an alumnus of Ashridge University (UK), IMD (Lausanne), Center for Creative Leadership (North Carolina), Indian School of Business - 
+           Hyderabad, and Stanford Business School (California), through his academic and learning exposures. He also qualifies a One-year Business Leaders Program 
+           (on Strategy and Leadership) with Indian Instituteof Management, Kolkata (India) and has taught atIIT, Mumbai & Roorkee as a visiting faculty.
+
           </p>
         </div>
       </div>
@@ -43,14 +42,17 @@ const AboutUs = () => {
           and Communications across 50+ global locations.
         </p>
         <p style={textStyle}>
-          He has been actively associated with Employer Organizations, Management Institutes, Universities,
-          and Professional bodies. He is a management educator at premier Management & Engineering Institutions in India.
-          He has addressed a Management Dinner on Leadership at Conference Board, USA, which was much appreciated.
+        Udai has been actively associated with Employer Organizations, Management Institutes, Universities and Professional bodies. 
+        He is a management educator at premier Management & Engineering institutes in India. His address at a Global Conference at San Diego on 
+        leadership, organized by Conference Board, 
+        USA was much appreciated.
         </p>
         <p style={textStyle}>
-          He currently pursues his consulting and advisory practice in Human Resources and General Management with
-          “The HR Company” as Founder & CEO, since 2007, with its offices at NCR and Mumbai. He is an experienced
-          selection jury, mentoring, and leadership coach besides being a certified trainer and assessor.
+        He currently pursues his consulting and advisory practice in Human Resources and General Management 
+        with – ‘The HR Company’ as Founder & CEO, since 2007, with its offices at NCR and Mumbai. He is an experienced 
+        Action Learning, Performance and Leadership Coach besides being a certified trainer and assessor. Also, he has 
+        supported The Conference Board, USA, as Director for its leadership council in India & South Asia and later as
+         Senior Fellow for The Global Human Capital Exchange for several years. He is located at Gurgaon.
         </p>
       </div>
     </div>

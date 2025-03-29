@@ -30,6 +30,7 @@ export default function Navbar({ homeRef, aboutRef, contactRef, serviceRef, solu
         src={logo} 
         className="h-12 md:h-16 transition-transform duration-300 hover:scale-110" 
         alt="Logo"
+        onClick={() => handleNavClick(homeRef)}
       />
 
       {/* Desktop Navigation */}

@@ -15,7 +15,7 @@ const KeyDifferentiators = () => {
         <div className="relative mt-[4vw] w-full">
             <CommonHeading title="Key Differentiators" />
             <div className="mt-[5%] ml-[2%] flex justify-center">
-                <div className="relative bg-[#006699] text-white p-12 w-[95%] max-w-[1400px] font-[Poppins,sans-serif] flex flex-col items-center text-center overflow-hidden">
+                <div className="relative bg-[#006699] text-white p-10 w-[95%] max-w-[1400px] font-[Poppins,sans-serif] flex flex-col items-center text-center overflow-hidden">
                     {/* Background Image */}
                     <img
                         src={bgImage}
@@ -26,11 +26,11 @@ const KeyDifferentiators = () => {
                     
                     {/* Differentiators List */}
                     <div className="relative z-10 w-full max-w-[95%] text-left">
-                        <ul className="list-disc pl-8 text-lg sm:text-xl leading-relaxed">
+                        <ul className="list-disc pl-6 text-base sm:text-lg leading-relaxed">
                             {differentiators.map((item, index) => (
-                                <li key={index} className="mb-6 pr-4">
-                                    <span className="font-semibold text-2xl sm:text-3xl">{item.title}</span>{" "}
-                                    <span className="text-xl sm:text-2xl font-normal">{item.description}</span>
+                                <li key={index} className="mb-4 pr-4">
+                                    <span className="font-semibold text-xl sm:text-2xl">{item.title}</span>{" "}
+                                    <span className="text-lg sm:text-xl font-normal">{item.description}</span>
                                 </li>
                             ))}
                         </ul>
@@ -40,7 +40,7 @@ const KeyDifferentiators = () => {
                     <img 
                         src={logo2} 
                         alt="Logo" 
-                        className="hidden sm:block absolute bottom-[1.5vw] right-[1.5vw] h-[5vw] z-20"
+                        className="hidden sm:block absolute bottom-[1.5vw] right-[1.5vw] h-[4vw] z-20"
                     />
                 </div>
             </div>

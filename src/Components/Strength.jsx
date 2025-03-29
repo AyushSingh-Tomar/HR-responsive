@@ -14,23 +14,22 @@ const Strength = () => {
           "Delivering excellence through people advisory and customized processes.",
           "Harnessing potential, building the leadership pipeline, and coaching leaders for success."
         ].map((text, index) => (
-<div
-  key={index}
-  className="bg-[#3A99C9] w-full md:w-[500px] max-w-[90%] p-4 md:p-6 flex items-start text-left shadow-lg rounded-lg sm:w-full"
->
-  <img src={star} alt="Star" className="w-4 h-4 mr-2 mt-1 sm:w-3 sm:h-3" />
-  <p className="text-white font-bold text-xl md:text-2xl sm:text-sm md:leading-snug sm:leading-tight sm:tracking-tight md:tracking-normal sm:max-w-full">
-    {text}
-  </p>
-</div>
-
+          <div
+            key={index}
+            className="bg-[#3A99C9] w-full md:w-[480px] max-w-[90%] p-4 md:p-5 flex items-start text-left shadow-lg rounded-lg sm:w-full"
+          >
+            <img src={star} alt="Star" className="w-3.5 h-3.5 mr-2 mt-1 sm:w-3 sm:h-3" />
+            <p className="text-white font-bold text-lg md:text-xl sm:text-sm leading-snug sm:leading-tight sm:tracking-tight md:tracking-normal sm:max-w-full">
+              {text}
+            </p>
+          </div>
         ))}
         
       </div>
 
       <img
         src={logo2}
-        className="hidden sm:block absolute right-[2vw] bottom-[2vw] h-[5vw] min-h-[40px]"
+        className="hidden sm:block absolute right-[2vw] bottom-[2vw] h-[4.5vw] min-h-[35px]"
         alt="Logo"
       />
     </div>
@@ -38,6 +37,7 @@ const Strength = () => {
 };
 
 export default Strength;
+
 
 
 
