@@ -74,7 +74,7 @@ const LeaderShipCoachingAndDevelopment = () => {
           <img 
             src={image23} 
             alt='Leadership Coaching' 
-            className='w-3/4 md:w-full h-auto object-contain rounded-lg'
+            className='w-3/4 md:w-full ml-[-12%] h-auto object-contain rounded-lg'
           />
         </div>
 
