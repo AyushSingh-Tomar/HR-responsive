@@ -12,7 +12,9 @@ const IndustriesWeServed = () => {
   return (
     <div className='mt-[2vw] relative px-6 sm:px-10' style={{ fontFamily: 'Poppins, sans-serif' }}>
 
-      <div className='ml-[-2.5vw]'><CommonHeading title="Industries We Served" /></div>
+      <div className="ml-[-5vw] md:ml-[-2.5vw]">
+  <CommonHeading title="Industries We Served" />
+</div>
       <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 mt-[5%] sm:ml-[7%]'>
         {industries.map((industry, index) => (
           <div 
