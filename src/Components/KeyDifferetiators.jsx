@@ -6,7 +6,7 @@ import logo2 from "../assets/logo2.png";
 const KeyDifferentiators = () => {
     const differentiators = [
         { title: "Cost Effective:", description: "This slide is 100% editable. Adapt it to your needs and capture your audience's attention." },
-        { title: "Experience & Expertise:", description: "This slide is 100% editable. Adapt it to your needs and capture your audience's attention." },
+        { title: "Experience:", description: "This slide is 100% editable. Adapt it to your needs and capture your audience's attention." },
         { title: "Expertise:", description: "This slide is 100% editable. Adapt it to your needs and capture your audience's attention." },
         { title: "Execution:", description: "This slide is 100% editable. Adapt it to your needs and capture your audience's attention." }
     ];
