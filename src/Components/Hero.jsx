@@ -37,28 +37,28 @@ const Hero = () => {
       </div>
 
       <div>
-        <img src={blueWheel} className='absolute animate-[spin_5s_linear_infinite] h-[17vw] top-[40%] left-[30.5%] translate-[-50%]' alt='' />
+        <img src={blueWheel} className='absolute animate-[spin_7s_linear_infinite] h-[17vw] top-[40%] left-[30.5%] translate-[-50%]' alt='' />
         <h5 style={{ fontFamily: 'Calibri, sans-serif' }} className='absolute top-[40%] left-[30.5%] translate-[-50%] text-[1.5vw] font-[500] text-white w-[11vw] text-center'>
           Leadership Coaching & Development
         </h5>
       </div>
 
       <div>
-        <img src={blueWheel} className='absolute animate-[spin_5s_linear_infinite] h-[17vw] top-[40%] right-[8.2%] translate-[-50%]' alt='' />
+        <img src={blueWheel} className='absolute animate-[spin_7s_linear_infinite] h-[17vw] top-[40%] right-[8.2%] translate-[-50%]' alt='' />
         <h5 style={{ fontFamily: 'Calibri, sans-serif' }} className='absolute top-[40%] right-[16%] translate-[-50%] text-[1.5vw] font-[500] text-white w-[11vw] text-center'>
           Empowered performance
         </h5>
       </div>
 
       <div>
-        <img src={blueWheel} className='absolute animate-[spin_5s_linear_infinite] h-[14vw] bottom-[-15.9%] left-[37%] translate-[-50%]' alt='' />
+        <img src={blueWheel} className='absolute animate-[spin_7s_linear_infinite] h-[14vw] bottom-[-15.9%] left-[37%] translate-[-50%]' alt='' />
         <h5 style={{ fontFamily: 'Calibri, sans-serif' }} className='absolute bottom-[4%] left-[37%] translate-[-50%] text-[1.3vw] font-[500] text-white w-[8vw] text-center'>
           Advisory & People Processes
         </h5>
       </div>
 
       <div>
-        <img src={blueWheel} className='absolute animate-[spin_5s_linear_infinite] h-[14vw] bottom-[-17%] right-[19.5%] translate-[-50%]' alt='' />
+        <img src={blueWheel} className='absolute animate-[spin_7s_linear_infinite] h-[14vw] bottom-[-17%] right-[19.5%] translate-[-50%]' alt='' />
         <h5 style={{ fontFamily: 'Calibri, sans-serif' }} className='absolute bottom-[7%] right-[27.4%] translate-[-50%] text-[1.5vw] font-[500] text-white w-[8vw] text-center'>
           Team Solutions
         </h5>
