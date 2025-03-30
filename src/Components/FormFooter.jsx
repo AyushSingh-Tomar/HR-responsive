@@ -2,7 +2,7 @@ import React from "react";
 import address from "../assets/address.png";
 import email from "../assets/mail.png";
 import phone2 from "../assets/phone2.png";
-import FormAdverdant from "./footeradverdant"
+// import FormAdverdant from "./footeradverdant"
 const ContactInfo = () => {
   return (
     <div className="w-[89%] ml-[8%] bg-white mb-[0%] mt-[3vw]">
@@ -34,7 +34,7 @@ const ContactInfo = () => {
 
         <div className="absolute right-[-5%] top-1/2 transform -translate-y-1/2 h-8 w-1 bg-pink-500 hidden md:block"></div>
       </div>
-      <FormAdverdant/>
+      {/* <FormAdverdant/> */}
     </div>
   );
 };
