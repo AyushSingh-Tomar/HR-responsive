@@ -70,7 +70,7 @@ const ContactForm = () => {
   <p>info@thehrcompany.co.in</p>
   <br />
   <p className="break-words whitespace-break-spaces">
-     <a href="https://www.linkedin.com/in/udai-upendra-6514895/">https://www.linkedin.com/in/udai-upendra-6514895/</a>
+     <a target="_blank" href="https://www.linkedin.com/in/udai-upendra-6514895/">https://www.linkedin.com/in/udai-upendra-6514895/</a>
   </p>
 </div>
 
