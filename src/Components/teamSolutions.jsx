@@ -24,14 +24,6 @@ const TeamSolutions = () => {
           className="m-auto w-full max-w-[90%] sm:max-w-[80%] md:max-w-3xl xl:max-w-5xl rounded-lg object-cover"
         />
       </div>
-      <div className="mt-8 px-6 max-w-4xl text-justify m-auto">
-        <p className="text-gray-800 text-lg sm:text-xl leading-relaxed m-auto">
-        Team Solutions<span>{'\u00AE'}</span><span>{'\u00A0'}</span>
-          is a quick, time-bound and proven decision making process with collective learning and execution effectiveness,
-aided by experts and experienced coaches. The process benefits individuals, teams and organizations by building team synergies,
-while solving problems and developing decision making capabilities alongside.
-        </p>
-      </div>
       <img
               src={logo2}
               className="hidden sm:block absolute right-[2vw] bottom-[-1vw] h-[4.5vw] min-h-[35px]"
