@@ -44,7 +44,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      const mailtoLink = `mailto:info@hrcompany.com?subject=Enquiry from ${encodeURIComponent(
+      const mailtoLink = `mailto:info@thehrcompany.co.in?subject=Enquiry from ${encodeURIComponent(
         formData.name
       )}&body=Company: ${encodeURIComponent(formData.company)}
       %0D%0ANature of Enquiry: ${encodeURIComponent(formData.enquiry)}
