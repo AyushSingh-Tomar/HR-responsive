@@ -59,7 +59,7 @@ const ContactForm = () => {
     <>
       <div className={`w-[90%] mx-auto p-6 rounded-lg mt-4 ${isMobile ? '' : 'w-[80%]'}`} style={{ backgroundColor: "#fff", fontFamily: "Poppins, sans-serif" }}>
         {/* <div className={`flex ${isMobile ? 'flex-col' : 'flex-row'} justify-between mb-4  border-4 border-[#016698] p-4 rounded-lg `}> */}
-        <div className={`flex ${isMobile ? 'flex-col' : 'flex-row'} justify-between mb-4  border-4 border-black p-4 rounded-lg `}>
+        <div className={`flex ${isMobile ? 'flex-col' : 'flex-row'} justify-between mb-4  border-4 border-grey p-4 rounded-lg `}>
         <div className="p-4 bg-white w-full md:w-[40%] border border-blue-400">
   <p>0124 4961988</p>
   <p>0124 4275594</p>
@@ -79,7 +79,7 @@ const ContactForm = () => {
         <form onSubmit={handleSubmit}>
   {/* Wrapper div for Name, Organization, Enquiry, and Email */}
   {/* <div className="w-full flex flex-col md:grid md:grid-cols-2 gap-4 mb-4 border-4 border-[#016698] p-4 rounded-lg"> */}
-  <div className="w-full flex flex-col md:grid md:grid-cols-2 gap-4 mb-4 border-4 border-black p-4 rounded-lg">
+  <div className="w-full flex flex-col md:grid md:grid-cols-2 gap-4 mb-4 border-4 border-grey p-4 rounded-lg">
     <div className="w-full">
       <label className="block mb-1">{'\u00A0'}Name :</label>
       <input
@@ -127,7 +127,7 @@ const ContactForm = () => {
   </div>
 
   {/* <div className="border-4 border-[#016698] p-4 rounded-lg"> */}
-  <div className="border-4 border-black p-4 rounded-lg">
+  <div className="border-4 border-grey p-4 rounded-lg">
     <label className="block mb-1">Message :</label>
     <textarea
       name="message"
